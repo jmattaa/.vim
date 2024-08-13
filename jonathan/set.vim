@@ -20,8 +20,6 @@ set termguicolors
 
 set colorcolumn=80
 
-set signcolumn=no
-
 set backspace=2
 
 " Remove netrw banner info cuz it be anoying sometimes

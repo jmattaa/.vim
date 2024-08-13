@@ -5,6 +5,11 @@ call plug#begin()
 " dis is importante
 Plug 'jiangmiao/auto-pairs'
 
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'prabirshrestha/asyncomplete-lsp.vim'
+
 " for some reason we need both fzf and fzf vim
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
