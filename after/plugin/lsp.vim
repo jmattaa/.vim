@@ -1,16 +1,16 @@
 let g:lsp_diagnostics_float_cursor = 1
 let g:lsp_diagnostics_echo_cursor = 1
+let g:lsp_diagnostics_virtual_text_enabled = 0
 
 let g:lsp_settings = {
     \ 'clangd': {
-    \   'cmd': ['clangd'],
+    \   'cmd': ['clangd', '--fallback-style=webkit'],
     \ }
 \ }
 
 function! s:on_lsp_buffer_enabled() abort
     setlocal omnifunc=lsp#complete
     setlocal signcolumn=yes
-    let g:lsp_diagnostics_virtual_text_enabled = 0
     if exists('+tagfunc') | setlocal tagfunc=lsp#tagfunc | endif
     nmap <buffer> gd <plug>(lsp-definition)
     nmap <buffer> gs <plug>(lsp-document-symbol-search)
