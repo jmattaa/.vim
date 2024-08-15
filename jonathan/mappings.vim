@@ -11,5 +11,5 @@ vnoremap > >gv
 nnoremap n nzzzv
 nnoremap N Nzzzv
 
-nnoremap <leader>yy "+yy
+nnoremap <leader>y "+y
 vnoremap <leader>y "+y
