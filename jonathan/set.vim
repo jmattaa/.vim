@@ -1,6 +1,7 @@
-" Numbers
-set number
-set relativenumber
+set nonumber
+set norelativenumber
+
+set signcolumn=auto
 
 set mouse=a
 
@@ -24,5 +25,5 @@ set backspace=2
 
 " Remove netrw banner info cuz it be anoying sometimes
 let g:netrw_banner=0
-:let g:netrw_dirhistmax = 0 " we don want netrwhist stuff
+let g:netrw_dirhistmax = 0 " we don want netrwhist stuff
 
