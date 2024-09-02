@@ -16,6 +16,8 @@ set nowrap
 
 set nohlsearch
 set incsearch
+set ignorecase
+set smartcase
 
 set termguicolors
 

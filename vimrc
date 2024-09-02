@@ -10,6 +10,8 @@ Plug 'mattn/vim-lsp-settings'
 Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'prabirshrestha/asyncomplete-lsp.vim'
 
+Plug 'SirVer/ultisnips'
+
 " for some reason we need both fzf and fzf vim
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
