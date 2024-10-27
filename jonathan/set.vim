@@ -1,6 +1,6 @@
 " Numbers
-set number
-set relativenumber
+set nonumber
+set norelativenumber
 
 set mouse=a
 
@@ -23,6 +23,8 @@ set termguicolors
 set colorcolumn=80
 
 set backspace=2
+
+set belloff=all
 
 " Remove netrw banner info cuz it be anoying sometimes
 let g:netrw_banner=0
