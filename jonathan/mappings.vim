@@ -9,3 +9,5 @@ nnoremap N Nzzzv
 
 nnoremap <leader>y "+y
 vnoremap <leader>y "+y
+
+nnoremap <leader>rr :source $MYVIMRC<CR>

@@ -1,3 +1,7 @@
+set nocompatible
+
+syntax on
+
 set nonumber
 set norelativenumber
 
