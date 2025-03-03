@@ -16,8 +16,9 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'morhetz/gruvbox'
 
-Plug 'vim-pandoc/vim-pandoc'
-Plug 'vim-pandoc/vim-pandoc-syntax'
+Plug 'preservim/vim-pencil'
+
+Plug 'tpope/vim-fugitive'
 
 " My plugins
 " Plug 'jmattaa/regedit.vim'
