@@ -3,6 +3,8 @@ let mapleader = ' '
 call plug#begin()
 
 " dis is importante
+Plug 'sheerun/vim-polyglot'
+
 Plug 'jiangmiao/auto-pairs'
 
 Plug 'prabirshrestha/vim-lsp'
@@ -19,6 +21,8 @@ Plug 'morhetz/gruvbox'
 Plug 'preservim/vim-pencil'
 
 Plug 'tpope/vim-fugitive'
+
+Plug 'Exafunction/codeium.vim'
 
 " My plugins
 " Plug 'jmattaa/regedit.vim'
