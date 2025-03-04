@@ -5,7 +5,7 @@ let g:lsp_diagnostics_virtual_text_enabled = 0
 let g:lsp_settings = {
     \ 'clangd': {
     \   'cmd': ['clangd', '--fallback-style=webkit'],
-    \ }
+    \ },
 \ }
 
 function! s:on_lsp_buffer_enabled() abort
