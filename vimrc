@@ -24,6 +24,8 @@ Plug 'tpope/vim-fugitive'
 
 Plug 'Exafunction/codeium.vim'
 
+Plug 'lervag/vimtex'
+
 " My plugins
 " Plug 'jmattaa/regedit.vim'
 
