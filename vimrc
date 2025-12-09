@@ -34,3 +34,4 @@ call plug#end()
 source $HOME/.vim/jonathan/mappings.vim
 source $HOME/.vim/jonathan/set.vim
 source $HOME/.vim/jonathan/colors.vim
+source $HOME/.vim/jonathan/zmode.vim
